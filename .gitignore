@@ -1,0 +1,25 @@
+# Build artifacts
+cpp/build/
+*.so
+*.o
+*.a
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Test outputs
+output/
+*.jpg
+*.png
+!example.py
+
+# Engine files (too large for git)
+*.engine
+*.onnx
+weights/
